@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #092635;
+  color: #9ec8b9;
+}
+
+.boxesContainer {
+  width: 450px;
+  height: 450px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.5rem;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 100ms ease-in-out;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.box:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+footer {
+  margin-top: 20px;
+  padding: 20px;
+}
